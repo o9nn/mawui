@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "types": ["jest", "node"]
+  },
+  "include": [
+    "echo-agent-loop.ts",
+    "telemetry/**/*.ts",
+    "memory/**/*.ts",
+    "dove9/**/*.ts",
+    "__tests__/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "bridge",
+    "examples"
+  ]
+}

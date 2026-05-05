@@ -89,9 +89,10 @@ csx/
 *.userprefs
 *.sln.docstates
 
-# Python
-__pycache__/
+# Node.js / TypeScript
+node_modules/
 dist/
+
 webui2.egg-info/
 
 # Rust
